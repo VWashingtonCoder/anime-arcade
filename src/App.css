@@ -6,7 +6,14 @@
   background-color: #2551a8;
   display: flex;
   justify-content: space-around;
-  font-size: calc(10px + 2vmin);
+  font-size: 25px;
   color: white;
   border-bottom: 3px solid black;
+}
+
+nav {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-evenly;
 }

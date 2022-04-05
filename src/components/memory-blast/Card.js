@@ -1,5 +1,6 @@
 import React from "react";
-import frontCard from "../../images/frontCard.png"
+import frontCard from "../../images/memory-blast/frontCard.png"
+import { CardStyled } from "../../styles/MemoryStyled"
 
 export default function Card({card, handleChoice, flipped, disabled}) {
     const handleClick = () => {
@@ -9,7 +10,7 @@ export default function Card({card, handleChoice, flipped, disabled}) {
     }
 
     return(
-        <div className = "card">
+        <CardStyled>
              <div className= {flipped ? "flipped" : ""}>
                 <img 
                     className="front" 
@@ -23,6 +24,6 @@ export default function Card({card, handleChoice, flipped, disabled}) {
                     onClick={handleClick}
                 />
             </div>
-        </div>
+        </CardStyled>
     )
 }

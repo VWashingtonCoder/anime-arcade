@@ -1,13 +1,12 @@
-import "./MemoryApp.css";
 import { MemoryStyled } from "../../styles/MemoryStyled";
 import React, { useState, useEffect } from 'react';
 import Card from "./Card";
-import backCard1 from "../../images/backCard1.png"
-import backCard2 from "../../images/backCard2.png"
-import backCard3 from "../../images/backCard3.png"
-import backCard4 from "../../images/backCard4.png"
-import backCard5 from "../../images/backCard5.png"
-import backCard6 from "../../images/backCard6.png"
+import backCard1 from "../../images/memory-blast/backCard1.png"
+import backCard2 from "../../images/memory-blast/backCard2.png"
+import backCard3 from "../../images/memory-blast/backCard3.png"
+import backCard4 from "../../images/memory-blast/backCard4.png"
+import backCard5 from "../../images/memory-blast/backCard5.png"
+import backCard6 from "../../images/memory-blast/backCard6.png"
 
 //Set up card images
 const cardImages = [

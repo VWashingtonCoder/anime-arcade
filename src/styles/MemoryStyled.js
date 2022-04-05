@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 export const MemoryStyled = styled.div`
-    background-color: darkviolet;
     padding: 1px 0;
-    color: #fff;
+    color: turquoise;
     h1{
         font-size: 73px;
         margin: 10px 0 20px;
@@ -40,7 +39,7 @@ export const MemoryStyled = styled.div`
         border: 2px solid #fff;
         padding: 0 12px;
         border-radius: 4px;
-        color: #fff;
+        color: turquoise;
         font-weight: bold;
         cursor: pointer;
         font-size: 1em;
@@ -58,5 +57,32 @@ export const MemoryStyled = styled.div`
         width: 80%;
         justify-items: end;
         margin-left: 6rem;
+    }
+`
+
+export const CardStyled = styled.div`
+    position: relative;
+    img {
+        width: 100%;
+        display: block;
+        border: 2px solid #fff;
+        border-radius: 6px; 
+    }
+    .front {
+        transform: rotateY(90deg);
+        transition: all ease-in 0.2s;
+        position: absolute; 
+    }
+    .flipped .front {
+        transform: rotateY(0deg);
+        transition-delay: 0.2s;
+    }
+    .back {
+        transition: all ease-in 0.2s;
+        transition-delay: 0.2s;
+    }
+    .flipped .back {
+        transform: rotateY(90deg);
+        transition-delay: 0s;
     }
 `

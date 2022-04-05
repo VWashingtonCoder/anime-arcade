@@ -11,10 +11,18 @@ function App() {
         <h1>Ani-Arcade</h1>
 
         <nav className="navigation">
-          <NavLink id="home" to="/">
+          <NavLink id="home" to="/"
+            style={({ isActive }) => ({
+              color: isActive ? "skyblue" : "white"
+            })}
+          >
             Home
           </NavLink>
-          <NavLink id="memory" to="/memory-blast">
+          <NavLink id="memory" to="/memory-blast"
+            style={({ isActive }) => ({
+              color: isActive ? "skyblue" : "white"
+            })}
+          >
             Memory Blast
           </NavLink>
         </nav>
