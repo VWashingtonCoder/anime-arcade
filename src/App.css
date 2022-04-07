@@ -6,9 +6,23 @@
   background-color: #2551a8;
   display: flex;
   justify-content: space-around;
-  font-size: 25px;
   color: white;
   border-bottom: 3px solid black;
+  padding-bottom: 15px;
+  height: 200px;
+}
+.header-text{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  font-size: 64px;
+  margin-bottom: 0px;
+}
+h2{
+  font-size: 28px;
 }
 
 nav {
@@ -16,4 +30,5 @@ nav {
   flex-flow: column;
   align-items: center;
   justify-content: space-evenly;
+  font-size: 25px;
 }
