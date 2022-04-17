@@ -17,8 +17,8 @@ export const HomeStyled = styled.div`
         justify-content: space-evenly;
         align-items: center;
         border: 2px solid black;
-        margin: 0px 15px;
-        padding-bottom: 10px;
+        margin: 0px 15px 10px;
+        padding: 10px 0;
     }
     .info {
         display: flex;
