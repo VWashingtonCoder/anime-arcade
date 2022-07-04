@@ -1,13 +1,25 @@
-import styled from "styled-components"
+import styled from "styled-components";
+
+/**
+ * @media (max-width: 719px) {}
+*/
 
 export const StyledHangmanGame = styled.div`
     display: flex;
     flex-flow: column;
     align-items: center;
-    background-color: mediumorchid;
     color: skyblue;
     .header{
         margin-top: -30px
+    }
+    @media (max-width: 719px) {
+        h1{
+            font-size: 61px;
+            margin-top: 25px;
+        }
+        .header {
+            font-size: 50px;
+        }
     }
 `
 export const GameDisplayStyled = styled.div`
@@ -37,6 +49,21 @@ export const GameDisplayStyled = styled.div`
     button{
         font-size: 20px;
     }
+    
+    @media (max-width: 719px) {
+        flex-flow: column;
+        align-items: center;
+        img {
+            width: 80%;
+        }
+        .masked {
+            font-size: 54px;
+        }
+        .clue {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+    }
 `
 
 export const GuessDisplayStyled = styled.div`
@@ -48,6 +75,11 @@ export const GuessDisplayStyled = styled.div`
     .guessLetters{
         width: 53%;
     }
+    
+    @media (max-width: 719px) {
+        flex-flow: column;
+        align-items: center;
+    }
 `
 
 export const AlphaKeysStyled = styled.div`
@@ -58,5 +90,10 @@ export const AlphaKeysStyled = styled.div`
     .alphaBtn{
         width: 55px;
         font-size: 36px;
+    }
+
+    @media (max-width: 719px) {
+        grid-template-columns: repeat(7,auto);
+        margin-bottom: 60px;
     }
 `

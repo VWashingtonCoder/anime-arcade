@@ -77,10 +77,3 @@ export const StyledCell = styled.button `
         font-size: 100px;
     }
 `
-
-/**
-    @media (max-width: 1200px, min-width: 768px){
-
-    }
-  
- */
