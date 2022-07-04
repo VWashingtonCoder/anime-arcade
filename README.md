@@ -4,10 +4,13 @@
 - Games featured:
     - Memory Blast
         * Come test your memory with this anime style card game.
+        ![Memory Preview](/src/images/home/memory-prev.jpg)  
     - Tic-Tac-Toe
         * Great classic two-player game
+        ![Tic-Tac-Toe Preview](/src/images/home/tic-tac-toe-prev.jpg)  
     - Hangman 
         * Find the hidden words
+        ![Hangman Preview](/src/images/home/hangman-prev.jpg) 
 
 ## Available Scripts
 
@@ -58,8 +61,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
     "web-vitals": "^2.1.4"
 
 ## Status
-- Still in development
-    * Media view adapting
+- Deployed: anime-arcade.vercel.app
 
 ## Authors
 -Vincent Washington (Andre)
