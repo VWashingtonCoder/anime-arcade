@@ -4,7 +4,7 @@
 - Games featured:
     - Memory Blast
         * Come test your memory with this anime style card game.
-        ![Memory Preview](/src/images/home/memory-prev.jpg)  
+        ![Memory Preview](/src/images/home/memory-preview.jpg)  
     - Tic-Tac-Toe
         * Great classic two-player game
         ![Tic-Tac-Toe Preview](/src/images/home/tic-tac-toe-prev.jpg)  
