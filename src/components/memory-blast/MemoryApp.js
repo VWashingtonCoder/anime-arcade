@@ -96,17 +96,16 @@ function MemoryApp() {
         <div className="info turns">
           Turns: {turns}
         </div>
-        <div className="info matches">
-          Matches: {matches}
-        </div>
         <div className="message">
           {message}
         </div>
-        <button onClick={shuffleCards}>
-          New Game
-        </button>
+        <div className="info matches">
+          Matches: {matches}
+        </div>        
       </div>      
-
+      <button id='newGameBtn' onClick={shuffleCards}>
+          New Game
+      </button>
       <div className='card-grid'>
         {
           cards.map((card) => (

@@ -42,8 +42,9 @@ export const MemoryStyled = styled.div`
         color: turquoise;
         font-weight: bold;
         cursor: pointer;
-        font-size: 1em;
+        font-size: 1.2em;
         height: 45px;
+        margin-top: 25px;
     }
     button:hover{
         background-color: #c23866;
@@ -57,6 +58,19 @@ export const MemoryStyled = styled.div`
         width: 80%;
         justify-items: end;
         margin-left: 6rem;
+    }
+
+    @media (max-width:500px){
+        h1 {
+            font-size: 65px;
+        }
+        button {
+            margin-top: 20px;
+            font-size: 1em;
+        }
+        .card-grid {
+            margin-left: 3rem;
+        }
     }
 `
 

@@ -32,37 +32,40 @@ export default function Home(){
                 <h1>Welcome to the Ani-Arcade!</h1>
                 <p>Pick a game below to get the fun started!</p>
             </div>
-            <div className="comp memory">
-                <div className="info memory">
-                    <h2>Memory Blast</h2>
-                    <p>Come test your memory with this anime style card game.</p>
-                    <button className="memory" onClick={navigateToGame}>
-                        Go Play!
-                    </button>
+            <div className="comp-container">
+                <div className="comp memory">
+                    <div className="info memory">
+                        <h2>Memory Blast</h2>
+                        <p>Come test your memory with this anime style card game.</p>
+                        <button className="memory" onClick={navigateToGame}>
+                            Go Play!
+                        </button>
+                        
+                    </div>
+                    <img src={memoryPrev} alt="memory-preview" />
                 </div>
-                <img src={memoryPrev} alt="memory-preview" />
-            </div>
-            
-            <div className="comp tic-tac-toe">
-                <div className="info tic-tac-toe">
-                    <h2>Tic-Tac-Toe</h2>
-                    <p>Great classic two-player game</p>
-                    <button className="tic-tac-toe" onClick={navigateToGame}>
-                        Go Play!
-                    </button>
+                
+                <div className="comp tic-tac-toe">
+                    <div className="info tic-tac-toe">
+                        <h2>Tic-Tac-Toe</h2>
+                        <p>Great classic two-player game</p>
+                        <button className="tic-tac-toe" onClick={navigateToGame}>
+                            Go Play!
+                        </button>
+                    </div>
+                    <img src={ticTacPrev} alt="tic-tac-toe-preview" />
                 </div>
-                <img src={ticTacPrev} alt="tic-tac-toe-preview" />
-            </div>
-            
-            <div className="comp hangman">
-                <div className="info hangman">
-                    <h2>Hangman: Otaku Version</h2>
-                    <p>Find the hidden words!</p>
-                    <button className="hangman" onClick={navigateToGame}>
-                        Go Play!
-                    </button>
+                
+                <div className="comp hangman">
+                    <div className="info hangman">
+                        <h2>Hangman: Otaku Version</h2>
+                        <p>Find the hidden words!</p>
+                        <button className="hangman" onClick={navigateToGame}>
+                            Go Play!
+                        </button>
+                    </div>
+                    <img src={hangmanPrev} alt="hangman-preview" />
                 </div>
-                <img src={hangmanPrev} alt="hangman-preview" />
             </div>
         </HomeStyled>
     )

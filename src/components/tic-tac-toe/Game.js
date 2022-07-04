@@ -39,16 +39,17 @@ export default function TicTacGame () {
     
     return (
         <StyledTicTacGame>
-            <h1>Tic Tac Toe</h1>
-            
+            <header>
+                <h1>Tic Tac Toe</h1>
+                <div className="game-info">
+                    <h2> {winner ? `Winner: ${winner}` : message} </h2>
+                    <button onClick={resetMoves}>
+                        Restart Game
+                    </button>
+                </div>
+            </header>
+        
             <Board cells={board} onClick={handleClick}/>
-
-            <div className="game-info">
-                <h2> {winner ? `Winner: ${winner}` : message} </h2>
-                <button onClick={resetMoves}>
-                    Restart Game
-                </button>
-            </div>
         </StyledTicTacGame>
     )
 }

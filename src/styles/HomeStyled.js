@@ -32,5 +32,24 @@ export const HomeStyled = styled.div`
     img {
         width: 48%
     }
+    .tic-tac-toe img{
+        height: 350px;
+    }
+
+    @media(max-width: 500px){
+        .comp {
+            flex-flow: column;
+        }
+        .info {
+            width: 85%;
+            margin-bottom: 20px;
+        }
+        img {
+            width: 100%;
+        }
+        .hangman img {
+            width: 95%;
+        }
+    }
 
 `
